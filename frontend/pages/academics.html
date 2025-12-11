@@ -45,6 +45,7 @@
     <meta name="ICBM" content="23.1765, 75.7885">
     
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/admin-login.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -71,6 +72,10 @@
                     <i class="fas fa-book-open"></i>
                     Syllabus
                 </a>
+                <button id="adminLoginBtn" class="admin-login-btn" aria-label="Admin Login">
+                    <i class="fas fa-user-shield" aria-hidden="true"></i>
+                    Admin Login
+                </button>
             </div>
         </div>
     </div>
@@ -557,7 +562,39 @@
         </div>
     </footer>
 
+    <!-- Admin Login Modal -->
+    <div id="adminLoginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-user-shield"></i> Admin Login</h2>
+            <form id="adminLoginForm">
+                <div class="form-group">
+                    <label for="adminEmail">
+                        <i class="fas fa-envelope"></i> Email Address
+                    </label>
+                    <input type="email" id="adminEmail" name="adminEmail" required 
+                           placeholder="Enter admin email" autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <label for="adminPassword">
+                        <i class="fas fa-lock"></i> Password
+                    </label>
+                    <input type="password" id="adminPassword" name="adminPassword" required 
+                           placeholder="Enter password" autocomplete="current-password">
+                </div>
+                <div id="loginError" class="error-message" style="display: none;"></div>
+                <button type="submit" class="btn-submit">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="../../backend/config/supabase.js"></script>
+    <script type="module" src="../../backend/api/auth.js"></script>
     <script src="../js/script.js"></script>
+    <script type="module" src="../js/admin-login.js"></script>
 </body>
 </html>
 
