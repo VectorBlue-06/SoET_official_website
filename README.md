@@ -1,12 +1,12 @@
 # SoET Official Website
 
-School of Engineering and Technology | Vikram University Ujjain
+School of Engineering and Technology | Samrat Vikramaditya Vishwavidyalaya Ujjain
 
 Excellence in Engineering Education Since 1957
 
 ## Overview
 
-Modern, responsive, and SEO-optimized official website for the School of Engineering and Technology at Vikram University, Ujjain. Built with cutting-edge web technologies focusing on user experience, accessibility, and performance.
+Modern, responsive, and SEO-optimized official website for the School of Engineering and Technology at Samrat Vikramaditya Vishwavidyalaya, Ujjain. Built with cutting-edge web technologies focusing on user experience, accessibility, and performance.
 
 **Quick Links**: [Features](#features) | [Getting Started](#getting-started) | [Contact](#contact)
 
@@ -265,12 +265,12 @@ Automatic deployment is configured via GitHub Actions. Every push to the main br
 
 **School of Engineering and Technology**
 
-Vikram University, Ujjain (M.P.)
+Samrat Vikramaditya Vishwavidyalaya, Ujjain (M.P.)
 
 Email: soet@vikramuniv.ac.in
 Phone: +91 734-2514271
 Website: vikramuniv.ac.in
-Address: Vikram University, Dewas Road, Ujjain - 456010
+Address: Samrat Vikramaditya Vishwavidyalaya, Dewas Road, Ujjain - 456010
 
 **Project Maintainer**
 
@@ -283,11 +283,11 @@ This project is licensed under the MIT License. See LICENSE file for details.
 
 ## Acknowledgments
 
-Vikram University: For academic excellence and support
+Samrat Vikramaditya Vishwavidyalaya: For academic excellence and support
 SoET Faculty: For guidance and feedback
 Students: For valuable input and testing
 Open Source Community: For tools and resources
 
 ---
 
-Made for School of Engineering and Technology, Vikram University, Ujjain
+Made for School of Engineering and Technology, Samrat Vikramaditya Vishwavidyalaya, Ujjain
